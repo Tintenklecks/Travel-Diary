@@ -1,0 +1,190 @@
+// CREATED by VBA macro on 01.08.20  17:40:56 
+
+// Info.plist - Dont forget to copy these strings to the InfoPlist.strings.file
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationAlwaysUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationWhenInUseUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSPhotoLibraryUsageDescription" = "The app can display the pictures taken at the tracked locations you visited. Therefore it needs your permission to access the photo roll. You can withdraw this permission at any time by either deleting the app or just by deactivating the Photo Library permission for this app in the Settings app";
+
+// Image Accessability names
+"AddLocation" = "Add current location to your diary";
+"AddLocationSmall" = "Add current location to your diary";
+"aroundMe" = "Show places around your current location";
+"arrival" = "Arrival time";
+"compassArrow" = "Compass arrow";
+"compassIcon" = "Compass icon";
+"compassRose" = "Compass rose";
+"compassRoseArrow" = "Compass arrow";
+"departure" = "Departure time";
+"heart.fill" = "Is favorite";
+"heart" = "Is not favorite";
+"info.circle.fill" = "Show entry details";
+"info.circle" = "Show entry details";
+"map.fill" = "Get directions for this entry";
+"map" = "Get directions for this entry";
+"world" = "Travel Diary Logo";
+
+// App specific translations
+
+// Bundle iOS
+"CFBundleDisplayName" = "Travel Diary";
+"CFBundleName" = "Travel Diary";
+
+// Start Screen Animation
+"TXTLaunchViewSubtitle" = "Never forget\nthe places you´ve been";
+"TXTLaunchViewTitle" = "Travel Diary";
+"TXTAppName" = "Travel Diary";
+
+// Permission Texts
+"TXTPermissions" = "Permissions";
+"TXTPermissionLocationNotYetAgreed" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the Settings app";
+"TXTPermissionLocationActivateInSettings" = "You have withdrawn permission from the app to access location data. Please switch to the Settings app and select 'Always' in the entry 'Location'";
+"TXTPermissionAgreed" = "You already gave the permission. To draw the permission back, please go to the Settings app";
+"TXTPermissionPhotorollActivateInSettings" = "You have withdrawn permission from the app to access the photo roll. Please switch to the Settings app and allow the photo access";
+
+// Special texts for demo version 
+"TXTDemoHeadlineScreenshots" = "Trip to Switzerland";
+"TXTDemoTextScreenshots" = "On Saturday we have made a trip to Zofingen in the canton of Aargau. It's a pitoresque little medieval town with houses older than the US. Have had a nice, but f*** expensive icecream in a coffeeshop in the pedestrian zone.";
+
+// Allgemein
+"TXTCompass" = "Compass";
+"TXTHybrid" = "Hybrid";
+"TXTMap" = "Map";
+"TXTSatellite" = "Satellite";
+"TXTCurrentlyHere" = "Currently here";
+"TXTDistanceTo" = "Distance to";
+"TXTError" = "Error";
+"TXTReload" = "Reload";
+"TXTSync" = "Sync";
+"TXTLoadEntries" = "Loading Diary Entries from the iPhone";
+"TXTRetry" = "Retry";
+"TXTAdd" = "Add";
+"TXTShowCompass" = "Show compass";
+"TXTRedArrowPointsTowards" = "The red arrow points towards";
+"TXTTowards" = "Towards";
+"TXTGrantPermission" = "Grant Permission";
+"TXTSettings" = "Settings";
+"TXTPhotoroll" = "Photo library";
+"TXTLocation" = "Location Access";
+"TXTVisitedPlaces" = "Places you visited";
+"TXTNavigationMaps" = "Navigation";
+
+// Permission State
+"TXTNotYetAgreed" = "Not Yet Agreed";
+"TXTActivateInSettings" = "Activate in Settings";
+"TXTAgreedToAlways" = "Agreed to Always";
+"TXTLoadDiaryEntries" = "Loading diary entries";
+"TXTNoEntriesText1" = "The Travel Diary collects places you visited in the background with a minimum of energy consumption. 
+
+It will take some time, until you see your first visits in this list. Just leave your iPhone in your pocket and wait.";
+"TXTNoEntriesText2" = "<b>Very important:</b> As the app collects your location changes in the background, a  second location permission dialog will appear once the app enters the background mode:";
+"TXTNoEntriesText3" = "Please make sure, you answer 'Agree to always'. Else it's impossible for the app to detect your visits.
+
+If you don't want to wait, you can import a few demo entries by pressing the button below. You can delete them (as any other entry) by swiping them to the left.";
+"TXTAroundYourLocation" = "Around your location";
+"TXTNavigation" = "Compass & Navigation";
+"TXTLocationName" = "Location name";
+"TXTLocationDescription" = "Location description";
+"TXTHeadline" = "Headline for this diary entry";
+"TXTHeadlineForYourNote" = "Headline for your notes";
+"TXTNotes" = "Text / Memories / Notes";
+"TXTSavedPosition" = "Manually Saved position";
+"TXTYouWereHere" = "You were here";
+"TXTDetails" = "Details";
+"TXTDayAbbreviation" = "d";
+"TXTImportDemoEntries" = "Import demo entries";
+"TXTNotification" = "Notifications";
+"TXTNotificationExplanation" = "Whenever a new location is registered as a 'visit', Travel Diary shows this with a little badge on the app's icon on the home screen. This way you dont have to open the app to check if a new location was tracked.
+To be able to set this badge, the app needs the permission to receive notifications.";
+"TXTNoEntriesWatch" = "There are no diary entries so far. To add your current location, press the button 'Add'";
+"TXTAddingNewLocation" = "Adding current location to your diary";
+"TXTSearchAdress" = "Search address, location etc";
+"TXTDurationOfStay" = "Duration of stay";
+"TXTOffline" = "Are you offline?";
+"TXTLoading" = "Loading …";
+"TXTNoResults" = "No results found";
+"TXTLoaded" = "Loaded";
+"TXTGeoLatitude" = "Latitude";
+"TXTGeoLongitude" = "Longitude";
+"TXTSearch" = "Search";
+"TXTNoAds" = "Remove Ads? Click here";
+"TXTLoadingWikiEntries" = "Searching Wiki entries";
+"TXTAppStoreImage" = "DownloadAppStoreEN";
+"TXTStoreHeadline1" = "Automatic";
+"TXTStoreHeadline2" = "Travel Diary";
+"TXTStoreSubHeadline" = "Full unrestricted version";
+"TXTStoreText" = "I also hate ads. \n\nBut I spent a lot of time developing this app. And the revenue I get from these ads ensure, that I have ‚<i>enough motivation</i>‘ ;) to continue developing <i><b>Travel Diary</b></i>. \n\nBut if you support me by buying the full version, all ads (and other restrictions) will be gone. \n\n<b>Don't worry:</b> Your diary entries will be retained when you switch to the pro version ";
+
+//  POINTS OF INTEREST CATEGORY
+"TXTPoiAirport" = "airport";
+"TXTPoiAmusementPark" = "amusement park";
+"TXTPoiAquarium" = "aquarium";
+"TXTPoiAtm" = "ATM";
+"TXTPoiBakery" = "bakery";
+"TXTPoiBank" = "bank";
+"TXTPoiBeach" = "beach";
+"TXTPoiBrewery" = "brewery";
+"TXTPoiCafe" = "cafe";
+"TXTPoiCampground" = "campground";
+"TXTPoiCarRental" = "car rentals";
+"TXTPoiEvCharger" = "EV chargers";
+"TXTPoiFireStation" = "fire stations";
+"TXTPoiFitnessCenter" = "fitness centers";
+"TXTPoiFoodMarket" = "food market";
+"TXTPoiGasStation" = "gas station";
+"TXTPoiHospital" = "hospital";
+"TXTPoiHotel" = "hotel";
+"TXTPoiLaundry" = "laundry";
+"TXTPoiLibrary" = "library";
+"TXTPoiMarina" = "marina";
+"TXTPoiMovieTheater" = "movie theater";
+"TXTPoiMuseum" = "museum";
+"TXTPoiNationalPark" = "national parks";
+"TXTPoiNightlife" = "nightlife";
+"TXTPoiPark" = "park";
+"TXTPoiParking" = "parking";
+"TXTPoiPharmacy" = "pharmacy";
+"TXTPoiPolice" = "police";
+"TXTPoiPostOffice" = "post offices";
+"TXTPoiPublicTransport" = "public transportation";
+"TXTPoiRestaurant" = "restaurant";
+"TXTPoiRestroom" = "restroom";
+"TXTPoiSchool" = "school";
+"TXTPoiStadium" = "stadium";
+"TXTPoiStore" = "store";
+"TXTPoiTheater" = "theater";
+"TXTPoiUniversity" = "university";
+"TXTPoiWinery" = "winery";
+"TXTPoiZoo" = "zoo";
+
+// Accessability
+"TXTAccessabilityTabBarHome" = "Diary entries";
+"TXTAccessabilityTabBarAroundme" = "Places around your current location";
+"TXTAccessabilityTabBarMap" = "Map view with all your visited places";
+"TXTAccessabilityTabBarSettings" = "Settings";
+"TXTAccessabilityTabBarPlus" = "Add current location to your diary";
+"TXTAccessabilityTabBarCompass" = "Navigate to geographic coordinates or search destination online";
+"TXTAccessabilityToggleLayout" = "Toggle diary layout";
+"TXTAccessabilityShowFavorite" = "Show only favorite entries";
+"TXTAccessabilityOpenInNavigation" = "Navigate to %@";
+"TXTAccessabilityGeoLatitude" = "Geographic latitude: %@";
+"TXTAccessabilityGeoLongitude" = "Geographic longitude: %@";
+"TXTAccessabilityEntryLocation" = "Location: %@";
+"TXTAccessabilityArrivalTime" = "Arrival time: %@";
+"TXTAccessabilityDepartureTime" = "Departure time: %@";
+"TXTAccessabilityDurationOfStay" = "Duration time: %@";
+"TXTAccessabilityDistanceFromLocation" = "Distance to %@: %@";
+"TXTAccessabilityFavoriteButton" = "Mark entry as favorite";
+"TXTAccessabilityOpenInMapsButton" = "Open directions to %@ in navigation app";
+"TXTAccessabilityDetailsButton" = "Show details of this diary entry";
+"TXTAccessabilityCompassButton" = "Show compass pointing to %@";
+"TXTAccessabilityDiaryList" = "List of diary entries";
+"TXTAccessabilityDiaryCell" = "Diary entry number %@ of %@";
+"TXTAccessabilityDiaryHeaderCell" = "Diary entries on %@";
+"TXTAccessabilityCloseDialogButton" = "Close dialog";
+"TXTAccessabilityEditEntryButton" = "Edit diary entry";
+"TXTAccessabilitySaveEntryButton" = "Save diary entry";
+"TXTAccessabilityClearTextField" = "Clear text field";
+"TXTAccessabilityHideKeyboard" = "Hide keyboard";
+"TXTAccessabilityTogglePictures" = "Toggle Picture Display";

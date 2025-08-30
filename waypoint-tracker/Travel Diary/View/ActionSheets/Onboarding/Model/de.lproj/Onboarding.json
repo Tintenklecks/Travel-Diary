@@ -1,0 +1,83 @@
+{
+  "title": "Was ist neu",
+  "colorIndex": 0,
+  "topics": [
+    {
+      "title": "Automatisches Tagebuch",
+      "text": "Lass die App Dein persönliches Tagebuch erstellen, ohne dass Du einen Finger krümmen musst.",
+      "icon": "obTrackingIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "Ich weiss, was Du letzten Sommer getan hast ...",
+          "text": "... und alle Zeit zwischen drin. Weil Dein Handy all die Orte speichert, an denen Du Dich länger aufhälst. Und die App kombiniert die `Besuche` mit Deinen Fotos und nützlichen Informationen",
+          "image": "obTracking1",
+          "colorIndex": 1
+        },
+        {
+          "version": "1.1",
+          "title": "Dein persönliches Tagebuch ...",
+          "text": "... wird automatisch im Hintergrund erstellt. Selbst wenn die App nicht läuft.",
+          "image": "obTracking2",
+          "colorIndex": 2
+        },
+        {
+          "version": "1.1",
+          "title": "Gesammelte Infos und Fotos",
+          "text": "Jeder Ort, an dem Du einige Minuten, Stunden oder Tage verbracht hast, wird notiert und Infos sowie Bilder aus Deiner Foto-Galerie zusammengesucht. Eine Luftaufnahme des Ortes rundet das Ganze ab",
+          "image": "obTracking3",
+          "colorIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "Um Dich herum",
+      "text": "Finde interessante Spots rund um Deinen aktuellen Standort und navigiere mit Apple Maps dort hin oder lass Dir vom Ziel Kompass die Richtung zeigen",
+      "icon": "obAroundmeIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "Orte Deines Lebens",
+          "text": "Schau Dir auf der Karte an, wo Du schon überall gewesen bist. Weltweit!",
+          "image": "obAroundme1",
+          "colorIndex": 4
+        },
+        {
+          "version": "1.1",
+          "title": "Schon besucht ... ?",
+          "text": "Schau Dir die Liste der Wikipedia-Einträge an, die sich um Deinen Standort herum befinden. Und per Kompass oder Apple Maps Navigation kommst Du schnell dorthin ...",
+          "image": "obAroundme2",
+          "colorIndex": 5
+        }
+      ]
+    },
+    {
+      "title": "Richtungs-weisend",
+      "text": "Suche eine Adresse, ein Café, ein Hotel oder gib konkrete Geo-Koordinaten ein und navigiere mit Apple Maps oder mit dem Kompass dorthin",
+      "icon": "obNavigationIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "Adresse oder Ausflugsziel",
+          "text": "Egal ob Du eine Adresse, ein nahegelegenes Cafe, oder nach einem Ausflugsziel wie einer Burg oder einem Museum suchst ... die App findet alles und bringt Dich gleich hin",
+          "image": "obNavigation1",
+          "colorIndex": 7
+        },
+        {
+          "version": "1.1",
+          "title": "Ziel Kompass",
+          "text": "Der Ziel Kompass zeigt Dir die genaue Richtung von Deinem aktuellen Standort zu dem zuvor gewählten Ziel. Übrigens: Der ist noch effektiver auf der Apple Watch",
+          "image": "obNavigation2",
+          "colorIndex": 8
+        },
+        {
+          "version": "1.1",
+          "title": "Apple-Maps Navigation auf Knopfdruck",
+          "text": "Von jedem Eintrag - ganz gleich ob aus Deiner Tagebuch-Liste, den Wikipedia-Einträgen oder aus der Umgebungssuche - kannst Du ganz einfach die Navigation in Apple Maps starten",
+          "image": "obNavigation3",
+          "colorIndex": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+
+/* Bundle name */
+"CFBundleName" = "บันทึกการเดินทาง";
+
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "แอปนี้บันทึกในพื้นหลังที่คุณอยู่เป็นเวลานานต้องใช้พลังงานเพียงเล็กน้อยและจะแสดงในประสิทธิภาพของแบตเตอรี่";
+
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "แอปนี้บันทึกในพื้นหลังที่คุณอยู่เป็นเวลานานต้องใช้พลังงานในปริมาณที่น้อยที่สุดและแทบจะไม่ส่งผลต่อประสิทธิภาพของแบตเตอรี่";
+
+/* Privacy - Location Usage Description */
+"NSLocationUsageDescription" = "แอปนี้บันทึกในพื้นหลังที่คุณอยู่เป็นเวลานานต้องใช้พลังงานเพียงเล็กน้อยเท่านั้นและจะแสดงในประสิทธิภาพของแบตเตอรี่";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "แอปนี้บันทึกในพื้นหลังที่คุณอยู่เป็นเวลานานต้องใช้พลังงานเพียงเล็กน้อยเท่านั้นและจะสะท้อนให้เห็นในประสิทธิภาพของแบตเตอรี่";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "เพื่อให้สามารถดูรูปภาพของรายการบันทึกไดอารี่ของคุณแอปจำเป็นต้องได้รับอนุญาตในการเข้าถึงคลังรูปภาพของคุณรูปภาพของคุณจะไม่สามารถเปลี่ยนแปลงได้ตลอดเวลา!";
+

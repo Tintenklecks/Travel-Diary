@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XMH-4Y-gVR" customClass="DiaryHeaderCell" customModule="Travel_Diary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0I-um-s4p">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjN-OW-bEf">
+                            <rect key="frame" x="16" y="60.5" width="61.5" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <color key="textColor" name="highlight"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 October 14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctb-qb-ZvX">
+                            <rect key="frame" x="290" y="60.5" width="108" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <color key="textColor" name="highlight"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-tu-y4r">
+                            <rect key="frame" x="368" y="46" width="30" height="14.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                            <color key="textColor" name="highlight"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="NeoWhite"/>
+                    <constraints>
+                        <constraint firstItem="Ctb-qb-ZvX" firstAttribute="top" secondItem="QhT-tu-y4r" secondAttribute="bottom" id="87N-0t-LZS"/>
+                        <constraint firstAttribute="bottom" secondItem="Ctb-qb-ZvX" secondAttribute="bottom" constant="4" id="Cpg-Uk-T3P"/>
+                        <constraint firstAttribute="trailing" secondItem="Ctb-qb-ZvX" secondAttribute="trailing" constant="16" id="EHO-K3-OEU"/>
+                        <constraint firstAttribute="trailing" secondItem="QhT-tu-y4r" secondAttribute="trailing" constant="16" id="Yvk-VA-cQb"/>
+                        <constraint firstItem="cjN-OW-bEf" firstAttribute="leading" secondItem="V0I-um-s4p" secondAttribute="leading" constant="16" id="ecl-aX-I1D"/>
+                        <constraint firstItem="cjN-OW-bEf" firstAttribute="centerY" secondItem="Ctb-qb-ZvX" secondAttribute="centerY" id="poE-DB-9ix"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="V0I-um-s4p" firstAttribute="leading" secondItem="lgH-l0-tKs" secondAttribute="leading" id="8MH-Pf-HQx"/>
+                <constraint firstItem="V0I-um-s4p" firstAttribute="top" secondItem="XMH-4Y-gVR" secondAttribute="top" id="Gvg-gC-R8B"/>
+                <constraint firstItem="V0I-um-s4p" firstAttribute="trailing" secondItem="lgH-l0-tKs" secondAttribute="trailing" id="L2E-8X-Tdr"/>
+                <constraint firstItem="V0I-um-s4p" firstAttribute="bottom" secondItem="lgH-l0-tKs" secondAttribute="bottom" id="dQs-7V-ofH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="lgH-l0-tKs"/>
+            <connections>
+                <outlet property="leftLabel" destination="cjN-OW-bEf" id="a5b-KK-rd8"/>
+                <outlet property="rightLabel" destination="Ctb-qb-ZvX" id="U4N-mp-9a2"/>
+                <outlet property="shadowView" destination="V0I-um-s4p" id="lLS-L1-AbI"/>
+                <outlet property="yearLabel" destination="QhT-tu-y4r" id="vpo-K2-JEA"/>
+            </connections>
+            <point key="canvasLocation" x="-1100" y="-335.49107142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="NeoWhite">
+            <color red="0.92199999094009399" green="0.96100002527236938" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="highlight">
+            <color red="0.029999999329447746" green="0.42199999094009399" blue="0.60699999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

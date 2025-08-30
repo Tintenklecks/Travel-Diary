@@ -1,0 +1,1 @@
+Travel,visit,automatic,diary,compass,navigation,tracking,blog,location,poi,point,interest,journal

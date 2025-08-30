@@ -1,0 +1,52 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '16.0'
+
+ # ignore all warnings from all pods 
+inhibit_all_warnings!
+
+target 'Travel Diary' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Travel Diary
+ # pod 'RealmSwift' 
+  pod 'iCarousel' 
+# pod 'AppSpectorSDK'
+ # ONLY IN LIGHT VERSION pod 'Google-Mobile-Ads-SDK'
+
+end
+
+target 'Travel Diary Lite' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Travel Diary
+ # pod 'RealmSwift' 
+  pod 'iCarousel' 
+ # pod 'AppSpectorSDK'
+  pod 'Google-Mobile-Ads-SDK'
+
+
+end
+
+target 'Exporter' do
+  use_frameworks!
+#  pod 'RealmSwift' 
+end
+
+
+# target 'Travel Diary Watch' do
+#   # Comment the next line if you don't want to use dynamic frameworks
+#   use_frameworks!
+
+#   # Pods for Travel Diary Watch
+
+# end
+
+# target 'Travel Diary Watch Extension' do
+#   # Comment the next line if you don't want to use dynamic frameworks
+#   use_frameworks!
+
+#   # Pods for Travel Diary Watch Extension
+
+# end

@@ -1,0 +1,56 @@
+{
+    "batchcomplete": "",
+    "query": {
+        "pages": {
+            "20403": {
+                "pageid": 20403,
+                "ns": 0,
+                "title": "Malay Peninsula",
+                "index": -1,
+                "coordinates": [
+                    {
+                        "lat": 7,
+                        "lon": 100,
+                        "primary": "",
+                        "globe": "earth"
+                    }
+                ],
+                "thumbnail": {
+                    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ISS028-E-29803.jpg/500px-ISS028-E-29803.jpg",
+                    "width": 500,
+                    "height": 333
+                },
+                "terms": {
+                    "description": [
+                        "peninsula in Southeast Asia"
+                    ]
+                }
+            },
+            "8120119": {
+                "pageid": 8120119,
+                "ns": 0,
+                "title": "Manang District, Satun",
+                "index": 0,
+                "coordinates": [
+                    {
+                        "lat": 7,
+                        "lon": 99.92166667,
+                        "primary": "",
+                        "globe": "earth"
+                    }
+                ],
+                "thumbnail": {
+                    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Amphoe_9107.png/500px-Amphoe_9107.png",
+                    "width": 500,
+                    "height": 329
+      
+                },
+                "terms": {
+                    "description": [
+                        "district in Satun province, Thailand"
+                    ]
+                }
+            }
+        }
+    }
+}

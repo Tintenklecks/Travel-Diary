@@ -1,0 +1,11 @@
+
+// Info.plist - Dont forget to copy these strings to the InfoPlist.strings.file
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationAlwaysUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSLocationWhenInUseUsageDescription" = "The purpose of this app is, to track the locations you visit. Therefore it needs your permission to track this location information in the background. You can withdraw this permission at any time by either deleting the app or just by deactivating the Location permission for this app in the 'Settings' app.";
+"NSPhotoLibraryUsageDescription" = "The app can display the pictures taken at the tracked locations you visited. Therefore it needs your permission to access the photo roll. You can withdraw this permission at any time by either deleting the app or just by deactivating the Photo Library permission for this app in the Settings app";
+
+// Bundle iOS
+"CFBundleDisplayName" = "Travel Diary";
+"CFBundleName" = "Travel Diary";

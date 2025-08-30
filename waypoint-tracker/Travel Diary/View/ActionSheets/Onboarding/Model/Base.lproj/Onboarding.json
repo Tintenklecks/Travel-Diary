@@ -1,0 +1,83 @@
+{
+  "title": "What's new",
+  "colorIndex": 0,
+  "topics": [
+    {
+      "title": "Location Tracking ",
+      "text": "Let the app create your personal diary, depending on the places you visited",
+      "icon": "obTrackingIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "I know what you did last summer ...",
+          "text": "... and anytime in between. Because your phone stores the places where you stay. And when you were there. Travel Diary brings both together to create your personal diary",
+          "image": "obTracking1",
+          "colorIndex": 1
+        },
+        {
+          "version": "1.1",
+          "title": "Your Personal Diary ...",
+          "text": "... is automaticaly created in the background. Even when the app is not active",
+          "image": "obTracking2",
+          "colorIndex": 2
+        },
+        {
+          "version": "1.1",
+          "title": "Collect Infos and Pictures",
+          "text": "Each place where you stayed for a few minutes to hours or days, is logged and Infos and pictures from your camera roll are shown together with an aerial photo",
+          "image": "obTracking3",
+          "colorIndex": 3
+        }
+      ]
+    },
+    {
+      "title": "Around You",
+      "text": "Find interesting spots around your current location and navigate there via maps or a direction pointing compass",
+      "icon": "obAroundmeIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "Places you visited",
+          "text": "See all places on the map, where you have been. Worldwide!",
+          "image": "obAroundme1",
+          "colorIndex": 4
+        },
+        {
+          "version": "1.1",
+          "title": "Have you already visited ...",
+          "text": "Look at the list of Wikipedia entries around your location. And you can get there quickly using the direction compass or the Apple Maps navigation ...",
+          "image": "obAroundme2",
+          "colorIndex": 5
+        }
+      ]
+    },
+    {
+      "title": "Directions",
+      "text": "Find any address, coffee shop, hotel or enter concrete coordinates and navigate there via Apple Maps or by using a destination pointing compass",
+      "icon": "obNavigationIcon",
+      "slides": [
+        {
+          "version": "1.1",
+          "title": "Adresses and Points of Interest",
+          "text": "Regardless of whether you are looking for an address, a nearby cafe, or a destination like a castle or a museum ... the app will find everything and get you there right away",
+          "image": "obNavigation1",
+          "colorIndex": 7
+        },
+        {
+          "version": "1.1",
+          "title": "Destination Compass",
+          "text": "The destination compass shows you the exact direction from your current location to the previously selected destination. By the way: It's even more convenient on the Apple Watch",
+          "image": "obNavigation2",
+          "colorIndex": 8
+        },
+        {
+          "version": "1.1",
+          "title": "Apple Maps Navigation at your fingertips",
+          "text": "From every entry - no matter whether from your diary list, the Wikipedia entries or from the local area search - you can easily start the navigation in Apple Maps",
+          "image": "obNavigation3",
+          "colorIndex": 9
+        }
+      ]
+    }
+  ]
+}

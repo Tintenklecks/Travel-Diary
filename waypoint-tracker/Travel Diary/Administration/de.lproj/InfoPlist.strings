@@ -1,0 +1,10 @@
+// Info.plist - Dont forget to copy these strings to the InfoPlist.strings.file
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationAlwaysUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationWhenInUseUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSPhotoLibraryUsageDescription" = "Um Fotos zu ihren Tagebuch Einträgen anzeigen zu können, benötigt die App die Erlaubnis auf Ihre Fotobibliothek zugreifen zu dürfen. Ihre Fotos werden zu keinem Zeitpunkt verändert!";
+
+// Bundle iOS
+"CFBundleDisplayName" = "Reisetagebuch";
+"CFBundleName" = "Reisetagebuch";

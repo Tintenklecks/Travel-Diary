@@ -1,0 +1,190 @@
+// CREATED by VBA macro on 01.08.20  17:40:56 
+
+// Info.plist - Dont forget to copy these strings to the InfoPlist.strings.file
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationAlwaysUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSLocationWhenInUseUsageDescription" = "Diese App zeichnet im Hintergrund auf, wo Sie längere Zeit verweilen. Dies benötigt nur unwesentlich Energie und wird sich in der Akkuleistung kaum widerspiegeln.";
+"NSPhotoLibraryUsageDescription" = "Um Fotos zu Ihren Tagebuch Einträgen anzeigen zu können, benötigt die App die Erlaubnis auf Ihre Fotobibliothek zugreifen zu dürfen. Ihre Fotos werden zu keinem Zeitpunkt verändert!";
+
+// Image Accessability names
+"AddLocation" = "Fügen Sie Ihrem Tagebuch den aktuellen Ort hinzu";
+"AddLocationSmall" = "Fügen Sie Ihrem Tagebuch den aktuellen Ort hinzu";
+"aroundMe" = "Orte um Ihren aktuellen Standort anzeigen";
+"arrival" = "Ankunftszeit";
+"compassArrow" = "Kompasspfeil";
+"compassIcon" = "Kompass-Symbol";
+"compassRose" = "Kompassrose";
+"compassRoseArrow" = "Kompasspfeil";
+"departure" = "Abfahrtszeit";
+"heart.fill" = "Favorit";
+"heart" = "Kein Favorit";
+"info.circle.fill" = "Eintragsdetails anzeigen";
+"info.circle" = "Eintragsdetails anzeigen";
+"map.fill" = "Anweisungen für diesen Eintrag erhalten";
+"map" = "Anweisungen für diesen Eintrag erhalten";
+"world" = "Reisetagebuch Logo";
+
+// App specific translations
+
+// Bundle iOS
+"CFBundleDisplayName" = "Tagebuch";
+"CFBundleName" = "Reisetagebuch";
+
+// Start Screen Animation
+"TXTLaunchViewSubtitle" = "Erinnere Dich immer\nder Stationen Deines Lebens";
+"TXTLaunchViewTitle" = "Reisetagebuch";
+"TXTAppName" = "Reisetagebuch";
+
+// Permission Texts
+"TXTPermissions" = "Berechtigungen";
+"TXTPermissionLocationNotYetAgreed" = "Der Zweck dieser App ist, die Orte zu verfolgen, die Sie besuchen. Daher benötigen Sie Ihre Berechtigung, um diese Standortinformationen im Hintergrund nachzuverfolgen. Sie können diese Berechtigung jederzeit widerrufen, indem Sie entweder die App löschen oder einfach die Berechtigung Standort für diese App in der App 'Einstellungen' deaktivieren.";
+"TXTPermissionLocationActivateInSettings" = "Sie haben der App die Berechtigung entzogen,  auf  Standortdaten zuzugreifen. Wechseln Sie bitte auf die Einstellungen App und wählen Sie unter 'Standort' den Eintrag 'Immer'.";
+"TXTPermissionAgreed" = "Sie haben bereits die Erlaubnis erteilt. Um die Berechtigung zurück zu zeichnen, gehen Sie bitte zur Einstellungs-App.";
+"TXTPermissionPhotorollActivateInSettings" = "Sie haben der App die Berechtigung entzogen,  auf Ihre Fotos zuzugreifen. Wechseln Sie bitte auf die Einstellungen App und gewähren Sie dort die Berechtigung.";
+
+// Special texts for demo version 
+"TXTDemoHeadlineScreenshots" = "Trip in die Schweiz";
+"TXTDemoTextScreenshots" = "Am Samstag haben wir einen Ausflug nach Zofingen im Kanton Aargau gemacht. Es ist eine pitoreske kleine mittelalterliche Stadt mit Häusern, die älter als die USA sind. Habe ein schönes, aber verdammt teures Eis in einem Coffeeshop in der Fußgängerzone gehabt.";
+
+// Allgemein
+"TXTCompass" = "Kompass";
+"TXTHybrid" = "Hybrid";
+"TXTMap" = "Karte";
+"TXTSatellite" = "Satellit";
+"TXTCurrentlyHere" = "Derzeit hier";
+"TXTDistanceTo" = "Entfernung nach";
+"TXTError" = "Fehler";
+"TXTReload" = "Neu laden";
+"TXTSync" = "Sync";
+"TXTLoadEntries" = "Einträge vom iPhone laden";
+"TXTRetry" = "Erneut versuchen";
+"TXTAdd" = "Hinzufügen";
+"TXTShowCompass" = "Kompass";
+"TXTRedArrowPointsTowards" = "Der rote Pfeil zeigt Richtung";
+"TXTTowards" = "Richtung";
+"TXTGrantPermission" = "Erlauben";
+"TXTSettings" = "Einstellungen";
+"TXTPhotoroll" = "Fotobibliothek";
+"TXTLocation" = "Standort";
+"TXTVisitedPlaces" = "Besuchte Orte";
+"TXTNavigationMaps" = "Navigation";
+
+// Permission State
+"TXTNotYetAgreed" = "Noch nicht zugestimmt";
+"TXTActivateInSettings" = "In den Einstellungen aktivieren";
+"TXTAgreedToAlways" = "Zugestimmt zu 'Immer erlauben'";
+"TXTLoadDiaryEntries" = "Lade die Einträge des Tagebuchs";
+"TXTNoEntriesText1" = "Das Reisetagebuch sammelt Orte im Hintergrund, die Sie besucht haben. Es benötigt dazu nur ein Minimum an Energieverbrauch. 
+
+Es wird einige Zeit dauern, bis Sie Ihre ersten Besuche in dieser Liste sehen. Lassen Sie einfach Ihr iPhone in der Tasche und warten Sie.";
+"TXTNoEntriesText2" = "<b>Sehr wichtig:</b> Wenn die App Ihre Standortänderungen im Hintergrund sammelt, wird ein zweiter Dialog mit Standortberechtigungen angezeigt, sobald die App in den Hintergrundmodus wechselt: ";
+"TXTNoEntriesText3" = "Bitte stellen Sie sicher, dass Sie mit 'Immer zustimmen' bestätigen. Andernfalls kann die App Ihre Besuche nicht erkennen.
+
+Wenn Sie nicht warten möchten, können Sie einige Demoeinträge importieren, indem Sie auf die Schaltfläche unten klicken. Sie können diese Einträge (wie jeden anderen Eintrag) löschen, indem Sie sie nach links wischen.";
+"TXTAroundYourLocation" = "In Ihrer Umgebung";
+"TXTNavigation" = "Kompass & Navigation";
+"TXTLocationName" = "Name des Ortes";
+"TXTLocationDescription" = "Name oder Beschreibung des Ortes";
+"TXTHeadline" = "Überschrift dieses Tagebucheintrags";
+"TXTHeadlineForYourNote" = "Überschrift für Ihre Notizen";
+"TXTNotes" = "Text, Erinnerungen, Notizen";
+"TXTSavedPosition" = "Manuell gespeicherter Eintrag";
+"TXTYouWereHere" = "Sie waren hier";
+"TXTDetails" = "Details";
+"TXTDayAbbreviation" = "T";
+"TXTImportDemoEntries" = "Import Demo Einträge";
+"TXTNotification" = "Mitteilungen";
+"TXTNotificationExplanation" = "Immer wenn ein neuer Standort als Tagebucheintrag erkannt wird, zeigt Reisetagebuch dies mit einem kleinen roten Marker auf dem App-Symbol auf dem Startbildschirm an. Auf diese Weise müssen Sie die App nicht öffnen, um zu prüfen, ob ein neuer Standort erkannt wurde.
+Um die Anzahl der 'Besuche' auf dem App Icon darstellen zu können, benötigt die App die Berechtigung zum Empfangen von Mitteilungen.";
+"TXTNoEntriesWatch" = "Bis jetzt gibt es noch keine Tagebuch Einträge. Um Ihren jetzigen Standort hinzuzufügen, drücken Sie den Button 'Hinzufügen'";
+"TXTAddingNewLocation" = "Aktueller Ort wird zu zu Ihrem Tagebuch hinzugefügt";
+"TXTSearchAdress" = "Suche Adresse, Restaurants etc";
+"TXTDurationOfStay" = "Aufenthaltsdauer";
+"TXTOffline" = "Sind Sie Online?";
+"TXTLoading" = "Laden …";
+"TXTNoResults" = "Keine Ergebnisse gefunden";
+"TXTLoaded" = "Geladen";
+"TXTGeoLatitude" = "Geogr. Breite";
+"TXTGeoLongitude" = "Geogr. Länge";
+"TXTSearch" = "Suche";
+"TXTNoAds" = "Werbung entfernen? Hier klicken …";
+"TXTLoadingWikiEntries" = "Suche nach Wiki  Einträgen";
+"TXTAppStoreImage" = "DownloadAppStoreDE";
+"TXTStoreHeadline1" = "Automatisches";
+"TXTStoreHeadline2" = "Reisetagebuch";
+"TXTStoreSubHeadline" = "Uneingeschränkte Vollversion";
+"TXTStoreText" = "Ja, ich hasse Werbung auch. \n\nAber ich habe viel Zeit damit verbracht, diese App zu entwickeln. Und die Einnahmen aus diesen Anzeigen sorgen dafür, dass ich weiterhin „<i>genug Motivation</i>“ ;) habe , um das <i><b>Reisetagebuch</b></i> weiterzuentwickeln. \n\nAber wenn Du mich durch den Kauf der Vollversion unterstützt, gehören Werbeeinblendungen (und alle anderen Einschränkungen) der Vergangenheit an. \n\n<b>Keine Sorge:</b> Beim Wechsel bleiben Deine Tagebuch-Einträge erhalten.";
+
+//  POINTS OF INTEREST CATEGORY
+"TXTPoiAirport" = "Flughafen";
+"TXTPoiAmusementPark" = "Vergnügungspark";
+"TXTPoiAquarium" = "Aquarium";
+"TXTPoiAtm" = "Geldautomat";
+"TXTPoiBakery" = "Bäckerei";
+"TXTPoiBank" = "Bank";
+"TXTPoiBeach" = "Strand";
+"TXTPoiBrewery" = "Brauerei";
+"TXTPoiCafe" = "Cafe";
+"TXTPoiCampground" = "Campingplatz";
+"TXTPoiCarRental" = "Autovermietungen";
+"TXTPoiEvCharger" = "EV-Ladegeräte";
+"TXTPoiFireStation" = "Feuerwachen";
+"TXTPoiFitnessCenter" = "Fitnesscenter";
+"TXTPoiFoodMarket" = "Supermarkt";
+"TXTPoiGasStation" = "Tankstelle";
+"TXTPoiHospital" = "Krankenhaus";
+"TXTPoiHotel" = "Hotel";
+"TXTPoiLaundry" = "Wäsche";
+"TXTPoiLibrary" = "Bibliothek";
+"TXTPoiMarina" = "Yachthafen";
+"TXTPoiMovieTheater" = "Kino";
+"TXTPoiMuseum" = "Museum";
+"TXTPoiNationalPark" = "Nationalparks";
+"TXTPoiNightlife" = "Nachtleben";
+"TXTPoiPark" = "Park";
+"TXTPoiParking" = "Parkplatz";
+"TXTPoiPharmacy" = "Apotheke";
+"TXTPoiPolice" = "Polizei";
+"TXTPoiPostOffice" = "Poststelle";
+"TXTPoiPublicTransport" = "öffentliche Verkehrsmittel";
+"TXTPoiRestaurant" = "Restaurant";
+"TXTPoiRestroom" = "Toilette";
+"TXTPoiSchool" = "Schule";
+"TXTPoiStadium" = "Stadion";
+"TXTPoiStore" = "Geschäft";
+"TXTPoiTheater" = "Theater";
+"TXTPoiUniversity" = "Universität";
+"TXTPoiWinery" = "Weingut";
+"TXTPoiZoo" = "Zoo";
+
+// Accessability
+"TXTAccessabilityTabBarHome" = "Tagebucheinträge";
+"TXTAccessabilityTabBarAroundme" = "Orte um Ihren aktuellen Standort";
+"TXTAccessabilityTabBarMap" = "Kartenansicht mit all Ihren besuchten Orten";
+"TXTAccessabilityTabBarSettings" = "Einstellungen";
+"TXTAccessabilityTabBarPlus" = "Fügen Sie Ihrem Tagebuch den aktuellen Ort hinzu";
+"TXTAccessabilityTabBarCompass" = "Navigieren Sie zu geografischen Koordinaten oder online zum Suchziel";
+"TXTAccessabilityToggleLayout" = "Tagebuchlayout umschalten";
+"TXTAccessabilityShowFavorite" = "Nur Lieblingseinträge anzeigen";
+"TXTAccessabilityOpenInNavigation" = "Navigieren Sie zu %@";
+"TXTAccessabilityGeoLatitude" = "Geografische Breite: %@";
+"TXTAccessabilityGeoLongitude" = "Geografische Länge: %@";
+"TXTAccessabilityEntryLocation" = "Ort: %@";
+"TXTAccessabilityArrivalTime" = "Ankunftszeit: %@";
+"TXTAccessabilityDepartureTime" = "Abfahrtszeit: %@";
+"TXTAccessabilityDurationOfStay" = "Dauer: %@";
+"TXTAccessabilityDistanceFromLocation" = "Abstand zu %@: %@";
+"TXTAccessabilityFavoriteButton" = "Eintrag als Favorit markieren";
+"TXTAccessabilityOpenInMapsButton" = "Öffnen Sie die Wegbeschreibung zu %@ in der Navigations-App";
+"TXTAccessabilityDetailsButton" = "Details zu diesem Tagebucheintrag anzeigen";
+"TXTAccessabilityCompassButton" = "Kompass Richtung %@";
+"TXTAccessabilityDiaryList" = "Liste der Tagebucheinträge";
+"TXTAccessabilityDiaryCell" = "Tagebucheintrag %@ von %@";
+"TXTAccessabilityDiaryHeaderCell" = "Tagebucheinträge am %@";
+"TXTAccessabilityCloseDialogButton" = "Dialog schließen";
+"TXTAccessabilityEditEntryButton" = "Tagebucheintrag bearbeiten";
+"TXTAccessabilitySaveEntryButton" = "Tagebucheintrag speichern";
+"TXTAccessabilityClearTextField" = "Lösche das Textfeld";
+"TXTAccessabilityHideKeyboard" = "Tastatur ausblenden";
+"TXTAccessabilityTogglePictures" = "Umschalten der Anzeige der Fotos";

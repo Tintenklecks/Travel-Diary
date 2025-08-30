@@ -1,0 +1,78 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Pre Check des Projekts"
+  lane :check do
+    fastlane precheck
+  end
+
+  desc "Check and Generate certificates"
+  lane :createCertificate do
+    get_certificates           # invokes cert
+    get_provisioning_profile   # invokes sigh
+end
+
+desc "Run UI Tests"
+lane :tests do
+  
+    run_tests(scheme: "UITests")
+    notification(message: "Fastlane Tasks done", sound:"Blow")
+    
+  end
+  
+  desc "Create release version and upload to testflight"
+    lane :release do
+     # sync_code_signing
+     # disable_automatic_code_signing(path: "Travel Diary.xcodeproj")
+      build_app
+     # enable_automatic_code_signing(path: "Travel Diary.xcodeproj")
+      upload_to_testflight
+    end
+    
+
+  desc "Just frame it and upload screenshots"
+  lane :frameAndUpload do
+    frame_screenshots(white: true)
+    notification(message: "Finished Framing")
+
+    upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+    notification(message: "Finished Upload to the AppStore")
+  end
+
+
+  desc "Upload screenshots"
+  lane :uploadScreenshots do
+    upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+    notification(message: "Finished Upload to the AppStore")
+  end
+
+
+  desc "Generate new localized screenshots"
+  lane :screenshots do
+    increment_build_number
+    capture_screenshots(scheme: "UITests", stop_after_first_error: true)
+
+
+    frame_screenshots(white: true)
+    notification(message: "Finished Framing")
+
+    upload_to_app_store(skip_binary_upload: true, skip_metadata: true)
+    notification(message: "Finished Upload to the AppStore")
+  end
+end

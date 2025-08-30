@@ -1,0 +1,11 @@
+app_identifier(ENV['BUNDLE_IDENTIFIER'])
+
+#app_identifier(ENV['BUNDLE_IDENTIFIER']) # see .env.Full and .env.Lite 
+# app_identifier("de.IBMobile.waypoint-tracker") # The bundle identifier of your app
+apple_id("IBMobile@puco.de") # Your Apple email address
+
+itc_team_id("283581") # App Store Connect Team ID
+team_id("KT43342F9W") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
